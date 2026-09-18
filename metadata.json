@@ -1,0 +1,6 @@
+{
+  "name": "登山行走技術：重心、踩點與下坡控制",
+  "description": "學習登山行走中的重心、踩點、平衡與下坡慣性控制，了解登山鞋、溯溪鞋、登山杖、繩索與雙手在濕滑及複雜地形中的正確運用。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
