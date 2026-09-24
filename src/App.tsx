@@ -16,6 +16,7 @@ import { TerrainTransitionMatrix } from './components/TerrainTransitionMatrix';
 import { InteractiveBiomechanicalDemonstrator } from './components/InteractiveBiomechanicalDemonstrator';
 import { PracticeChecklist } from './components/PracticeChecklist';
 import { Footer } from './components/Footer';
+import { Breadcrumb } from './components/Breadcrumb';
 import { NavSection } from './types';
 
 const SECTIONS: NavSection[] = [
@@ -45,6 +46,7 @@ export default function App() {
           
           {/* Main Educational Article */}
           <main className="w-full flex-1 min-w-0">
+            <Breadcrumb />
             <article id="educational-article" className="prose prose-stone max-w-none">
               
               {/* Header / Meta Hero Banner */}
