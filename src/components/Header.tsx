@@ -25,10 +25,10 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-18">
-          {/* Brand Area Linking to https://amazon-hike.com/chapter01/ */}
+          {/* Brand Area Linking to https://amazon-hike.com/ */}
           <a
             id="brand-header-link"
-            href="https://amazon-hike.com/chapter01/"
+            href="https://amazon-hike.com/"
             className="group flex items-center gap-3 py-2 text-stone-100 hover:text-emerald-300 transition-colors"
             title="前往 亞馬遜國家山岳協會"
           >
