@@ -82,6 +82,7 @@ export function InteractiveBiomechanicalDemonstrator() {
             <svg
               viewBox="0 0 360 240"
               className="w-full max-w-sm h-auto"
+              role="img"
               aria-label="人體重心與登山杖下坡力學示意圖"
             >
               {/* Slope Line */}

@@ -25,10 +25,10 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-18">
-          {/* Brand Area Linking to https://amazon-hike.com/intro */}
+          {/* Brand Area Linking to https://amazon-hike.com/chapter01/ */}
           <a
             id="brand-header-link"
-            href="https://amazon-hike.com/intro"
+            href="https://amazon-hike.com/chapter01/"
             className="group flex items-center gap-3 py-2 text-stone-100 hover:text-emerald-300 transition-colors"
             title="前往 亞馬遜國家山岳協會"
           >
@@ -101,46 +101,46 @@ export function Header() {
       {mobileMenuOpen && (
         <div id="mobile-menu-drawer" className="md:hidden bg-stone-900 border-b border-stone-800 px-4 py-4 space-y-3">
           <a
-            href="#section-1"
+            href="#section-friction"
             onClick={() => setMobileMenuOpen(false)}
             className="block py-2 text-stone-300 hover:text-emerald-400 text-sm"
           >
-            1. 鞋底止滑不是全部
+            鞋底止滑不是全部
           </a>
           <a
-            href="#section-3"
+            href="#section-stream-crossing"
             onClick={() => setMobileMenuOpen(false)}
             className="block py-2 text-stone-300 hover:text-emerald-400 text-sm"
           >
-            3. 登山遇到溯溪／涉水
+            登山遇到溯溪／涉水
           </a>
           <a
-            href="#section-6"
+            href="#section-downhill-braking"
             onClick={() => setMobileMenuOpen(false)}
             className="block py-2 text-stone-300 hover:text-emerald-400 text-sm"
           >
-            6. 下坡不是單純煞車
+            下坡不是單純煞車
           </a>
           <a
-            href="#section-10"
+            href="#section-trekking-poles"
             onClick={() => setMobileMenuOpen(false)}
             className="block py-2 text-stone-300 hover:text-emerald-400 text-sm"
           >
-            10. 登山杖：輔助而非替代
+            登山杖：輔助而非替代
           </a>
           <a
-            href="#section-16"
+            href="#section-descent-workflow"
             onClick={() => setMobileMenuOpen(false)}
             className="block py-2 text-stone-300 hover:text-emerald-400 text-sm"
           >
-            16. 下坡完整動作流程
+            下坡完整動作流程
           </a>
           <a
             href="#practice-drills"
             onClick={() => setMobileMenuOpen(false)}
             className="block py-2 text-stone-300 hover:text-emerald-400 text-sm"
           >
-            18. 實作練習指南
+            實作練習指南
           </a>
         </div>
       )}

@@ -7,7 +7,7 @@ export function Breadcrumb() {
         </li>
         <li aria-hidden="true">/</li>
         <li>
-          <a href="https://amazon-hike.com/intro" className="hover:text-emerald-700 hover:underline underline-offset-2">登山入門教學</a>
+          <a href="https://amazon-hike.com/chapter01/" className="hover:text-emerald-700 hover:underline underline-offset-2">登山入門教學</a>
         </li>
         <li aria-hidden="true">/</li>
         <li aria-current="page" className="text-stone-700 font-medium">登山行走技術</li>
